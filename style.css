@@ -1,0 +1,296 @@
+body{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:Helvetica, Arial, sans-serif;;
+}
+.container{
+	max-width:980px;
+	margin:auto;
+}
+header{
+	background:#3B5998;
+}
+.top-header {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 13px;
+
+padding-bottom: 7px;
+}
+.top-header .logo {
+	align-self: center;
+}
+.top-header .logo img{}
+
+.top-header .login-form{}
+.top-header .login-form .email {
+	float: left;
+}
+.top-header .login-form .email label {
+	display: block;
+	font-size: 12px;
+	padding-bottom: 4px;
+	color: #fff;
+	word-spacing: 2px;
+}
+.top-header .login-form .email input {
+	width: 142px;
+	padding: 3px;
+	border: 1px solid #1d2a5b;
+	color: #1c1e21;
+}
+
+.top-header .login-form .password {
+	float:left;
+	margin-left: 15px;
+}
+.top-header .login-form .password label{
+	display: block;
+	font-size: 12px;
+	padding-bottom: 4px;
+	color: #fff;
+	word-spacing: 2px;
+}
+.top-header .login-form .password input{
+	width: 142px;
+	padding: 3px;
+	border: 1px solid #1d2a5b;
+	color: #1c1e21;
+}
+.top-header .login-form .password .forgot{}
+.top-header .login-form .password .forgot a {
+	font-size: 12px;
+	color: #9cb4d8;
+	text-decoration: none;
+}
+.top-header .login-form .password .forgot a:hover{
+	text-decoration:underline;
+}
+.top-header .login-form .button{
+	float:left;
+}
+.top-header .login-form .submit {
+	align-self: center;
+	margin-top: 18px;
+	margin-left: 15px;
+	background-color: #4267b2;
+	border: 1px solid #29487d;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 18px;
+	padding: 2px 6px;
+	color: #fff;
+	cursor: pointer;
+}
+
+/* start main */
+
+main {
+	background: linear-gradient(white, #D3D8E8);
+}
+.signup-area {
+	display: flex;
+	justify-content: space-between;
+}
+.signup-area .left-area {
+	width: 580px;
+}
+.signup-area .left-area h2 {
+	font-size: 20px;
+	line-height: 29px;
+	color: #0e385f;
+	width: 450px;
+	margin-bottom: 0;
+	word-spacing: -1px;
+	margin-top: 40px;
+}
+.signup-area .left-area img{}
+.signup-area .right-area {
+	width: 400px;
+}
+.signup-area .right-area h1 {
+	font-size: 36px;
+	line-height: 48px;
+	color: #333333;
+	margin-bottom: 5px;
+}
+.signup-area .right-area h4 {
+	font-size: 19px;
+	line-height: 25px;
+	color: #1d2129;
+	margin: 0;
+	font-weight: normal;
+	margin-bottom: 18px;
+}
+.signup-area .right-area .signup-form{}
+.signup-area .right-area .signup-form .name {
+	display: flex;
+	justify-content: space-between;
+}
+.signup-area .right-area .signup-form .name input {
+	width: 192px;
+	padding: 8px 10px;
+	margin-right: 8px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	box-sizing: border-box;
+	border: 1px solid #bdc7d8;
+	border-radius: 5px;
+}
+.signup-area .right-area .signup-form .name input:last-child{
+	margin-right:0;
+}
+.signup-area .right-area .signup-form .email{}
+.signup-area .right-area .signup-form .email input{
+	width: 100%;
+	padding: 8px 10px;
+	margin-right: 8px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	box-sizing: border-box;
+	border: 1px solid #bdc7d8;
+	border-radius: 5px;
+}
+.signup-area .right-area .signup-form .password{}
+.signup-area .right-area .signup-form .password input{
+	width: 100%;
+	padding: 8px 10px;
+	margin-right: 8px;
+	font-size: 18px;
+	box-sizing: border-box;
+	border: 1px solid #bdc7d8;
+	border-radius: 5px;
+}
+.signup-area .right-area .signup-form .birthday{}
+.signup-area .right-area .signup-form .birthday h5 {
+	font-size: 16px;
+	line-height: 21px;
+	color: #90949c;
+	margin-bottom: 6px;
+}
+.signup-area .right-area .signup-form .birthday select {
+	font-size: 13px;
+	height: 30px;
+	padding: 5px;
+	border: 1px solid #ccd0d5;
+}
+.signup-area .right-area .signup-form .birthday select option{}
+.signup-area .right-area .signup-form .gender{}
+.signup-area .right-area .signup-form .gender h5 {
+	font-size: 16px;
+	line-height: 21px;
+	color: #90949c;
+	margin-bottom: 6px;
+	margin-top: 8px;
+}
+.signup-area .right-area .signup-form .gender .female{
+	display: inline-block;
+	color: #1d2129;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 18px;
+	padding: 0 10px 0 3px;
+}
+.signup-area .right-area .signup-form .gender .female input{}
+.signup-area .right-area .signup-form .gender .female label{}
+.signup-area .right-area .signup-form .gender .male{
+	display: inline-block;
+	color: #1d2129;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 18px;
+	padding: 0 10px 0 3px;
+}
+.signup-area .right-area .signup-form .gender .male input{}
+.signup-area .right-area .signup-form .gender .male label{}
+.signup-area .right-area .signup-form .gender .others{
+	display: inline-block;
+	color: #1d2129;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 18px;
+	padding: 0 10px 0 3px;
+}
+.signup-area .right-area .signup-form .gender .others input{}
+.signup-area .right-area .signup-form .gender .others label{}
+.signup-area .right-area .signup-form p {
+	font-size: 11px;
+	line-height: 15px;
+	color: #777777;
+	width: 316px;
+}
+.signup-area .right-area .signup-form p a{
+	color:#385898;
+}
+.signup-area .right-area .signup-form input[type="submit"]{
+	font-size: 19px;
+	line-height: 24px;
+	color: #fff;
+	padding: 6px 64px;
+	border-radius: 5px;
+	border: 1px solid;
+	border-color: #3b6e22 #3b6e22 #2c5115;
+	font-weight: bold;
+	background: linear-gradient(#67ae55, #578843);
+	background-color: rgba(0, 0, 0, 0);
+	background-color: #69a74e;
+	box-shadow: inset 0 1px 1px #a4e388;
+	margin-bottom: 35px;
+	margin-top: 11px;
+}
+.signup-area .right-area .signup-form input[type="submit"]:hover{
+	background: linear-gradient(#79bc64, #578843);
+}
+.signup-area .right-area .signup-form h4 {
+	color: #666666;
+	font-size: 13px;
+	line-height: 17px;
+	font-weight: bold;
+	margin-bottom: 29px;
+}
+.signup-area .right-area .signup-form h4 a{
+	text-decoration:none;
+	color:#385898;
+}
+.signup-area .right-area .signup-form h4 a:hover{
+	text-decoration:underline;
+}
+
+
+
+footer{}
+.footer-area .area1 {
+	padding-top: 16px;
+}
+.footer-area .area1 a {
+	font-size: 12px;
+	line-height: 16px;
+	color: #385898;
+	text-decoration: none;
+	margin-right: 5px;
+}
+.footer-area .area1 a:hover{
+	text-decoration:underline;
+}
+.divider {
+	border: 1px solid #dddfe2;
+	margin: 10px 0;
+	font-size: 1px;
+}
+.footer-area .area2 a {
+	font-size: 12px;
+	line-height: 16px;
+	color: #385898;
+	text-decoration: none;
+	margin-right: 15px;
+}
+.footer-area .area2 a:hover{
+	text-decoration:underline;
+}
+.footer-area .copyright {
+	color: #737373;
+	font-size: 11px;
+	line-height: 15px;
+	margin: 20px 0 22px 0;
+}
